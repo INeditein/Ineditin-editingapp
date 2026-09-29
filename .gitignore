@@ -1,0 +1,22 @@
+# segredos: nunca enviar para o GitHub
+.env
+.env.*
+!.env.example
+
+# dependências e builds
+node_modules/
+.next/
+out/
+dist/
+.vercel/
+
+# sistema e editor
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# arquivos de vídeo de teste (são pesados)
+*.mp4
+*.mov
+*.m4v
